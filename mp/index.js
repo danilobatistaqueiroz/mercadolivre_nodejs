@@ -12,7 +12,7 @@ router.post('/pagar', async (req, res) => {
         transaction_amount: 10,
         description: 'Test Payment',
         installments: 1,
-        token: MP.access_token,
+        token: req.body.token,
         payment_method_id: 'visa',
         payer: {
             email: 'admin@admin.com'
