@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+
+.estadia{display: inline-block; width: 20%;margin: 10px 2.5%;box-shadow: 0 5px 20px #ccc;}
+    .estadia_title{width: 100%;background: #333;padding: 10px;color: #fff;font-weight: bold;text-align: center;}
+    .estadia_image{padding: 10px 40px;}
+    .estadia_image img{max-width: 100%;}
+    .estadia_desc{font-size: 16px; text-align: center;}
+    .estadia_btn{text-align: center;}
+    .div_center{margin: 0.5em; display: flex; align-items: center; justify-content: center;}
